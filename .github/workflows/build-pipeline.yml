@@ -72,6 +72,6 @@ jobs:
 
       - name: Verify installation
         run: |
-          python -c "import awesome_calculator; print('Awesome Calculator version:', awesome_calculator.__version__)"
+          python -c "import calculator; print('Awesome Calculator version:', awesome_calculator.__version__)"
 
 
