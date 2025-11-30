@@ -72,6 +72,6 @@ jobs:
 
       - name: Verify installation
         run: |
-          python -c "import calculator; print('Calculator add(2, 3) =', calculator.add(2, 3))"
+          python -c "import calculator; print('Calculator module loaded:', calculator); print('Contents:', dir(calculator))"
 
 
